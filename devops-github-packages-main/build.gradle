@@ -5,7 +5,7 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_11
 
 group 'io.vanisidagam.blog'
-version '1.0.0'
+version '1.0.1'
 
 repositories {
     mavenCentral()
@@ -15,7 +15,7 @@ repositories {
         name = "GitHubPackages"
         // Die URL des Repositories, in dem die Artefakte veröffentlicht wurden
         // The url of the repository that contains the published artifacts
-        url = "https://maven.pkg.github.com/vanisidagam/devops-github-packages"
+        url = "https://maven.pkg.github.com/vanisidagam/devops-github-actions"
         credentials {
             // Die Zugangsdaten (weiter unten beschrieben)
             // The credentials (described in the next section)
@@ -28,5 +28,5 @@ repositories {
 dependencies {
     // Die Referenz auf das veröffentlichte Library-Artefakt
     // The reference to our published library artifact
-    compile "io.vanisidagam.blog:devops-github-packages-library:1.0.0"
+    compile "io.vanisidagam.blog:devops-github-actions-library:1.0.1"
 }
